@@ -1,0 +1,81 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Diagrama de Clases - Biblioteca" id="biblioteca01">
+    <mxGraphModel dx="343" dy="187" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="biblioteca" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;align=left;verticalAlign=top;spacingTop=8;spacingLeft=8;" value="&lt;b&gt;Biblioteca&lt;/b&gt;&lt;hr&gt;- nombre : String&lt;br&gt;- direccion : String&lt;hr&gt;+ prestarLibro() : void&lt;br&gt;+ devolverLibro() : void" vertex="1">
+          <mxGeometry height="150" width="260" x="430" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="autor" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;align=left;verticalAlign=top;spacingTop=8;spacingLeft=8;" value="&lt;b&gt;Autor&lt;/b&gt;&lt;hr&gt;- idAutor : int&lt;br&gt;- nombre : String&lt;br&gt;- nacionalidad : String&lt;hr&gt;+ agregarLibro() : void&lt;br&gt;+ eliminarLibro() : void" vertex="1">
+          <mxGeometry height="170" width="270" x="620" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="libro" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;align=left;verticalAlign=top;spacingTop=8;spacingLeft=8;" value="&lt;b&gt;Libro&lt;/b&gt;&lt;hr&gt;- idLibro : int&lt;br&gt;- titulo : String&lt;br&gt;- precio : double&lt;br&gt;- estado : String&lt;hr&gt;+ disponible() : boolean&lt;br&gt;+ marcarPrestado() : void" vertex="1">
+          <mxGeometry height="180" width="270" x="430" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="prestamo" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;align=left;verticalAlign=top;spacingTop=8;spacingLeft=8;" value="&lt;b&gt;Prestamo&lt;/b&gt;&lt;hr&gt;- idPrestamo : int&lt;br&gt;- fechaPrestamo : Date&lt;br&gt;- fechaDevolucion : Date&lt;br&gt;- estado : String&lt;hr&gt;+ registrar() : void&lt;br&gt;+ cerrar() : void" vertex="1">
+          <mxGeometry height="180" width="290" x="820" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="socio" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;align=left;verticalAlign=top;spacingTop=8;spacingLeft=8;" value="&lt;b&gt;Socio&lt;/b&gt;&lt;hr&gt;- idSocio : int&lt;br&gt;- nombre : String&lt;br&gt;- telefono : String&lt;br&gt;- direccion : String&lt;hr&gt;+ verHistorial() : void&lt;br&gt;+ renovarPrestamo() : void" vertex="1">
+          <mxGeometry height="180" width="290" x="810" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rel1" edge="1" parent="1" source="biblioteca" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;fontSize=12;" target="libro" value="administra">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mult1a" parent="rel1" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.1" y="-1" as="geometry">
+            <mxPoint x="-9" y="-33" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mult1b" parent="rel1" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.1" y="1" as="geometry">
+            <mxPoint x="14" y="33" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel2" edge="1" parent="1" source="autor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;fontSize=12;" target="libro" value="escrito por">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="565" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mult2a" parent="rel2" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.1" y="-1" as="geometry">
+            <mxPoint x="44" y="23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mult2b" parent="rel2" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;rotation=0;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.1" y="1" as="geometry">
+            <mxPoint x="-24" y="-67" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel3" edge="1" parent="1" source="libro" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;fontSize=12;" target="prestamo" value="corresponde a">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mult3a" parent="rel3" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.1" y="-1" as="geometry">
+            <mxPoint x="-44" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mult3b" parent="rel3" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.1" y="1" as="geometry">
+            <mxPoint x="44" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel4" edge="1" parent="1" source="socio" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;fontSize=12;" target="prestamo" value="realiza">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mult4a" parent="rel4" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.1" y="-1" as="geometry">
+            <mxPoint x="-7" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mult4b" parent="rel4" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.1" y="1" as="geometry">
+            <mxPoint x="17" y="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
