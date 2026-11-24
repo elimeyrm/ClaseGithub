@@ -1,0 +1,16 @@
+C:\Users\LABB-00\Documents\ejercicios batc\PRACTICA\PRACTICA\PRACTICA\bin\Debug\net8.0-windows\PRACTICA.exe
+C:\Users\LABB-00\Documents\ejercicios batc\PRACTICA\PRACTICA\PRACTICA\bin\Debug\net8.0-windows\PRACTICA.deps.json
+C:\Users\LABB-00\Documents\ejercicios batc\PRACTICA\PRACTICA\PRACTICA\bin\Debug\net8.0-windows\PRACTICA.runtimeconfig.json
+C:\Users\LABB-00\Documents\ejercicios batc\PRACTICA\PRACTICA\PRACTICA\bin\Debug\net8.0-windows\PRACTICA.dll
+C:\Users\LABB-00\Documents\ejercicios batc\PRACTICA\PRACTICA\PRACTICA\bin\Debug\net8.0-windows\PRACTICA.pdb
+C:\Users\LABB-00\Documents\ejercicios batc\PRACTICA\PRACTICA\PRACTICA\obj\Debug\net8.0-windows\PRACTICA.Form1.resources
+C:\Users\LABB-00\Documents\ejercicios batc\PRACTICA\PRACTICA\PRACTICA\obj\Debug\net8.0-windows\PRACTICA.csproj.GenerateResource.cache
+C:\Users\LABB-00\Documents\ejercicios batc\PRACTICA\PRACTICA\PRACTICA\obj\Debug\net8.0-windows\PRACTICA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LABB-00\Documents\ejercicios batc\PRACTICA\PRACTICA\PRACTICA\obj\Debug\net8.0-windows\PRACTICA.AssemblyInfoInputs.cache
+C:\Users\LABB-00\Documents\ejercicios batc\PRACTICA\PRACTICA\PRACTICA\obj\Debug\net8.0-windows\PRACTICA.AssemblyInfo.cs
+C:\Users\LABB-00\Documents\ejercicios batc\PRACTICA\PRACTICA\PRACTICA\obj\Debug\net8.0-windows\PRACTICA.csproj.CoreCompileInputs.cache
+C:\Users\LABB-00\Documents\ejercicios batc\PRACTICA\PRACTICA\PRACTICA\obj\Debug\net8.0-windows\PRACTICA.dll
+C:\Users\LABB-00\Documents\ejercicios batc\PRACTICA\PRACTICA\PRACTICA\obj\Debug\net8.0-windows\refint\PRACTICA.dll
+C:\Users\LABB-00\Documents\ejercicios batc\PRACTICA\PRACTICA\PRACTICA\obj\Debug\net8.0-windows\PRACTICA.pdb
+C:\Users\LABB-00\Documents\ejercicios batc\PRACTICA\PRACTICA\PRACTICA\obj\Debug\net8.0-windows\PRACTICA.genruntimeconfig.cache
+C:\Users\LABB-00\Documents\ejercicios batc\PRACTICA\PRACTICA\PRACTICA\obj\Debug\net8.0-windows\ref\PRACTICA.dll

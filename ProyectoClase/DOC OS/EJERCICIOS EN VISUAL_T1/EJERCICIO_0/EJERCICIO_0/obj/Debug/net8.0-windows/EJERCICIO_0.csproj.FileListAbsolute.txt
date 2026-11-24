@@ -1,0 +1,16 @@
+C:\Users\LABB-00\Documents\EJERCICIOS EN VISUAL_T1\EJERCICIO_0\EJERCICIO_0\bin\Debug\net8.0-windows\EJERCICIO_0.exe
+C:\Users\LABB-00\Documents\EJERCICIOS EN VISUAL_T1\EJERCICIO_0\EJERCICIO_0\bin\Debug\net8.0-windows\EJERCICIO_0.deps.json
+C:\Users\LABB-00\Documents\EJERCICIOS EN VISUAL_T1\EJERCICIO_0\EJERCICIO_0\bin\Debug\net8.0-windows\EJERCICIO_0.runtimeconfig.json
+C:\Users\LABB-00\Documents\EJERCICIOS EN VISUAL_T1\EJERCICIO_0\EJERCICIO_0\bin\Debug\net8.0-windows\EJERCICIO_0.dll
+C:\Users\LABB-00\Documents\EJERCICIOS EN VISUAL_T1\EJERCICIO_0\EJERCICIO_0\bin\Debug\net8.0-windows\EJERCICIO_0.pdb
+C:\Users\LABB-00\Documents\EJERCICIOS EN VISUAL_T1\EJERCICIO_0\EJERCICIO_0\obj\Debug\net8.0-windows\EJERCICIO_0.Form1.resources
+C:\Users\LABB-00\Documents\EJERCICIOS EN VISUAL_T1\EJERCICIO_0\EJERCICIO_0\obj\Debug\net8.0-windows\EJERCICIO_0.csproj.GenerateResource.cache
+C:\Users\LABB-00\Documents\EJERCICIOS EN VISUAL_T1\EJERCICIO_0\EJERCICIO_0\obj\Debug\net8.0-windows\EJERCICIO_0.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LABB-00\Documents\EJERCICIOS EN VISUAL_T1\EJERCICIO_0\EJERCICIO_0\obj\Debug\net8.0-windows\EJERCICIO_0.AssemblyInfoInputs.cache
+C:\Users\LABB-00\Documents\EJERCICIOS EN VISUAL_T1\EJERCICIO_0\EJERCICIO_0\obj\Debug\net8.0-windows\EJERCICIO_0.AssemblyInfo.cs
+C:\Users\LABB-00\Documents\EJERCICIOS EN VISUAL_T1\EJERCICIO_0\EJERCICIO_0\obj\Debug\net8.0-windows\EJERCICIO_0.csproj.CoreCompileInputs.cache
+C:\Users\LABB-00\Documents\EJERCICIOS EN VISUAL_T1\EJERCICIO_0\EJERCICIO_0\obj\Debug\net8.0-windows\EJERCICIO_0.dll
+C:\Users\LABB-00\Documents\EJERCICIOS EN VISUAL_T1\EJERCICIO_0\EJERCICIO_0\obj\Debug\net8.0-windows\refint\EJERCICIO_0.dll
+C:\Users\LABB-00\Documents\EJERCICIOS EN VISUAL_T1\EJERCICIO_0\EJERCICIO_0\obj\Debug\net8.0-windows\EJERCICIO_0.pdb
+C:\Users\LABB-00\Documents\EJERCICIOS EN VISUAL_T1\EJERCICIO_0\EJERCICIO_0\obj\Debug\net8.0-windows\EJERCICIO_0.genruntimeconfig.cache
+C:\Users\LABB-00\Documents\EJERCICIOS EN VISUAL_T1\EJERCICIO_0\EJERCICIO_0\obj\Debug\net8.0-windows\ref\EJERCICIO_0.dll
