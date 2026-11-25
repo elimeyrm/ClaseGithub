@@ -1,0 +1,8 @@
+@echo off
+title  ESTE ES UN MENSAJE DE BIENVENIDA
+color 40
+
+echo HOLA CHICOS COMO ESTAN?
+echo.
+echo QUE NOVEDADES?
+pause
